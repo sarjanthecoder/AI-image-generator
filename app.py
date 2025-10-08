@@ -1,6 +1,3 @@
-# =================================================================
-# == FINAL CORRECTED server.py FOR STABILITY AI (SDXL Model) ==
-# =================================================================
 import os
 import base64
 import uuid
@@ -109,4 +106,5 @@ def serve_static(path):
 # 7. Start the Flask server
 if __name__ == '__main__':
     print('🚀 Starting Python Flask server for Stability AI...')
+
     app.run(port=5500, debug=True)
